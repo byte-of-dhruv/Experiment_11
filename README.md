@@ -3,10 +3,6 @@
 ## Theory:
 1. Dataset- A dataset is a collection of data organized in a structured format such as rows and columns.  
 2. In pandas, datasets are represented using a dataframe, which is a 2-dimensional tabular data structure (like an Excel sheet).  
-## Screenshot of the Dataset Used:
-<img width="372" height="379" alt="Screenshot (337)" src="https://github.com/user-attachments/assets/8c246aca-d7c3-48e5-97aa-050516904006" />
-
-
 3. Creating Dataset- Creating a dataset means manually defining data inside python and converting it into a dataframe.
 - A dataset of student details was created using a Python dictionary and converted into a Pandas DataFrame.
 - Dataset Attributes:  
@@ -44,7 +40,9 @@
 17. df.columns is used to get the names of all columns in a dataframe.    
 18. df.isnull().sum()-It is used to check missing (null) values in each column of a datarfame.  
 19. df.duplicated().sum()-It is used to find the number of duplicate rows in a dataframe.  
-20. df.nunique() is used to count the number of unique (distinct) values in each column of a dataframe.    
+20. df.nunique() is used to count the number of unique (distinct) values in each column of a dataframe.
+## Screenshot of the Dataset Used:
+<img width="372" height="379" alt="Screenshot (337)" src="https://github.com/user-attachments/assets/8c246aca-d7c3-48e5-97aa-050516904006" />   
 ## Conclusion:
 - This experiment demonstrated how to create a dataset in Python using Pandas, save it as a CSV file, and load external datasets for analysis.
 - It also helped in understanding basic DataFrame operations like inspection, statistical analysis, and data cleaning.
